@@ -49,7 +49,7 @@
   .pagination-bottom {
     display: table-row-group;
   }
-}
+} 
 
 @media (max-width: 600px) {
   .users-wraper,
