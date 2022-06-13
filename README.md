@@ -1,70 +1,54 @@
-# Getting Started with Create React App.
+# API-SERVICE 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Service-Model API Project
 
-## Available Scripts
+"Api service" is a project in which an API is called and different users attributes and blog posts are shown on a web page
 
-In the project directory, you can run:
+* Making use of the https://dummyapi.io/docs API
 
-### `npm start`
+### Used Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* React
+* Material UI
+* Axios
+* Chakra UI
+* Dummy API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Approaches
 
-### `npm test`
+* I began studying the challenge, understanding what I needed to learn in order to develop it
+* Following by sketching the design on paper. Separating all of the elements required to create the website
+* Taking into account the pagination for the organization of the elements in the layout
+* I spent a few hours learning how to use the Pagination and the React-Router-Dom components
+* I began the coding development, first focusing on functionality and studying how the API works
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It must have taken me about  hours to develop it in total, including study and development time
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### JS File
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Installed and used the Axios library to data fetching
+* Declared different variables, used useState to update the value of the function
+* Created a function to ask for data to the Api and return the response
+* Used useNavigation react hook to route through  different pages
+* Used pagination component to organized the API response
+* Installed and used an "app-bar" with a button to view the list of users
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## CSS FILE
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Used Materila UI library App-Bar 
+* Used SX Prop to customize some of the elements
+* Used Media queries to create a responsive design
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Faced difficulties and features to implement in the future
 
-## Learn More
+* Some issues with the design's development because I wasn't clear on how I wanted to present the elements, which distracted me from the functionality
+* Some technical issues with Git-Hub
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
