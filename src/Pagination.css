@@ -1,0 +1,14 @@
+.pagination-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-bottom {
+  display: flex;
+  margin: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
